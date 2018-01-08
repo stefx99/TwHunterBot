@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TWBot</title>
+    <style>
+        .botsettings{
+            width: auto;
+            height: auto;
+            float: left;
+
+        }
+        .botsettings label {
+            float: left;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="botsettings">
+    <h2>Bot settings</h2>
+    <form action="" method="POST">
+    <div class="logins">
+
+        <!--<label>Bot logins in format NICK:OAUTH</label>-->
+        <!--<br>-->
+        <!--<textarea name="logins" cols="50" rows="30"></textarea>-->
+        <label>Twitch accounts NICK:OAUTH</label><br>
+        <p>Bots nick:0auth copy to bots.txt file</p>
+
+
+
+    </div>
+        <br>
+    <label>Twitch channel:</label>
+    <input type="text" name="channel" value="#">
+    <br><br>
+    <label>Raffle keyword</label>
+    <input type="text" name="keyword">
+    <br><br>
+    <input type="submit" value="Send all">
+    </form>
+</div>
+<a href="/winner"><h2>GOTO Winner bot</h2></a>
+</body>
+</html>
