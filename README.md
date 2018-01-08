@@ -1,6 +1,6 @@
 # TwHunterBot
 
-Requirement:
+Requirements:
   - Flask
   
 How to use:
